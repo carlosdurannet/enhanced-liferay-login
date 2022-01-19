@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="net.carlosduran.ell.impsb.model.ImpersonationRegistry">
+		<field name="uuid" type="String" />
+		<field name="impersonationRegistryId" type="long" />
+		<field name="companyId" type="long" />
+		<field name="userId" type="long" />
+		<field name="screenName" type="String" />
+		<field name="impersonatedUserId" type="long" />
+		<field name="impersonatedScreenName" type="String" />
+		<field name="operationDate" type="Date" />
+		<field name="operationResult" type="int" />
+	</model>
+</model-hints>
