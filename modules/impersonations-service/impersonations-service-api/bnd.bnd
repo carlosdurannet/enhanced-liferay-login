@@ -1,0 +1,10 @@
+Bundle-Name: impersonations-service-api
+Bundle-SymbolicName: net.carlosduran.ell.impsb.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	net.carlosduran.ell.impsb.exception,\
+	net.carlosduran.ell.impsb.model,\
+	net.carlosduran.ell.impsb.service,\
+	net.carlosduran.ell.impsb.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../impersonations-service-service/service.xml
